@@ -6,7 +6,7 @@ app.use('/assets', express.static(path.join(__dirname, 'semantic')))
 var firstVue = require('./views/firstPage.js');
 
 app.get('/', (req, res) => {
-  firstVue.getHtml(req.query.alert, function(page) {
+  firstVue.getHtml(function(page) {
 			res.end(page);
 		});
 })
