@@ -1,0 +1,22 @@
+{
+  "name": "hackthon_mh",
+  "version": "1.0.0",
+  "description": "Hackthon",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christelle29200/MHHackathon.git"
+  },
+  "author": "Christelle Premel-Cabic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christelle29200/MHHackathon/issues"
+  },
+  "homepage": "https://github.com/christelle29200/MHHackathon#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
