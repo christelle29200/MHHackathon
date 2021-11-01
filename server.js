@@ -1,7 +1,6 @@
 const express = require('express')
 const app = express()
 const port = process.env.PORT || 443
-	app.use('/assets', express.static(path.join(__dirname, 'assets')))
 
 var firstVue = require('./views/firstPage.js');
 
