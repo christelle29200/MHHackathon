@@ -4,7 +4,7 @@ function getHtml(callback) {
 		'<head>' +
 		'	<meta charset="UTF-8">' +
 		'    <title>Connexion</title>' +
-		'        <link rel="stylesheet" type="text/css" href="/dist/semantic.min.css" />' +
+		'        <link rel="stylesheet" type="text/css" href="/assets/dist/semantic.min.css" />' +
 		'	<script src="https://cdn.jsdelivr.net/npm/vue"></script>' +
 		'</head>' +
 		  '<style type="text/css">'+
