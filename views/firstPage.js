@@ -3,32 +3,20 @@ function getHtml(callback) {
 		'<html lang="fr">' +
 		'<head>' +
 		'	<meta charset="UTF-8">' +
-		'    <title>Connexion</title>' +
+		'    <title>MH practice</title>' +
 		'        <link rel="stylesheet" type="text/css" href="/assets/dist/semantic.min.css" />' +
 		'	<script src="https://cdn.jsdelivr.net/npm/vue"></script>' +
 		'</head>' +
-		  '<style type="text/css">'+
-    'body > .grid { height: 100%;}'+
-    '.image { margin-top: -100px;}'+
-    '.column { max-width: 450px;}'+
-  '</style>'+
 		'<body>' ;
-		html += '<div class="ui middle aligned center aligned grid">'+
-  '<div class="column">'+
-    '<h2 class="ui image header">'+
-      '<div class="content">Mental Health</div></h2>';
-	
+		
+html += '<div class="ui text container">'+
+    '<h3 class="first">Mental Health Exercices</h3>'+
+    '<p>Welcome to this mental health improvement program. By following the following exercises regularly, you will improve your well-being.</p>'+
+	'<p>Ready to go ?</p>'+
+	'<div class="ui two column centered grid"><button type="button" class="ui large labeled icon button teal" onclick="location.href=\'/meditation\'" title="Next" ><i class="arrow circle right icon"></i>Next</button></div>' +
+  '</div>';
+html += '</body></html>';
 
-    html += '</h2><form class="ui medium form">'+
-      '<div class="ui stacked segment">'+
-        '<div class="field"><div class="ui left icon input"><i class="user icon"></i><input type="text" name="username" placeholder="6+2"></div></div>'+
-           '<div class="field"><div class="ui left icon input"><i class="lock icon"></i><input type="password" name="password" placeholder="Mot de passe"></div></div>'+
- 		'<input type="submit" value="connexion" class="ui large teal labeled icon button" />'+       
- //'<div class="ui fluid large teal submit button">Se connecter</div>'+
-      '</div></form>';
-
-	html += '</div></div></body>' +
-		'</html>';
-	callback(html);
+callback(html);
 }
 module.exports.getHtml = getHtml;
