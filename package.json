@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/christelle29200/MHHackathon#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "fomantic-ui": "^2.8.8",
+    "natives": "^1.1.6"
   }
 }
